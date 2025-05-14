@@ -1,3 +1,10 @@
+// toggle menu
+let navbar = document.querySelector(".navbar")
+
+function showMenu(){
+    navbar.classList.toggle("navbar-block")
+
+}
 // onscrol header
 
 let header = document.querySelector("Header")
@@ -25,7 +32,9 @@ window.onscroll = (()=>{
         if(top >= offset && top < offset + height){
             navLinks.forEach((links)=>{
                 links.classList.remove('Active');
-                links.classList.contains(`href*=${id}`).add('Active')
+                links.classList.contains(`href*=${id}`).add('Active');
+            
+                
 
             })
         }

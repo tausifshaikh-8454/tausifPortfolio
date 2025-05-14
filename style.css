@@ -597,6 +597,66 @@ footer {
   .main-sec{
     padding:20px;
   }
+  .content-div {
+    max-width: 100%;
+  }
+  .about{
+    padding: 20px;
+  }
+  .my-journey {
+    padding: 20px;
+  }
+  .edu-col {
+    flex: 1 1 100%;
+  }
+  .my-skills{
+    padding: 20px;
+  }
+  .contact{
+    padding: 20px;
+  }
+  form{
+    width: 100%;
+  }
+  .form-field input{
+    width: 100%;
+    margin:10px 0px;
+  }
+  .text-area #message {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .submit-btn{
+    width:100%;
+  }
+  .bck-top{
+    right:0px;
+    bottom: 45px;
+  }
+  .footer-div {
+    display: flex;
+    background-color: #0376a6;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  
+  .navbar-block{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 105px;
+    background: #00abf0;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+  }
 }
 
 
