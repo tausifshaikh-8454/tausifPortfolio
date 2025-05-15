@@ -270,7 +270,8 @@ section{
 h3.cat-title {
   font-size: 25px;
   color: #FFF;
-  font-family: cursive;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 #year {
@@ -347,12 +348,14 @@ h3.cat-title {
   font-size: 50px;
   color: #ededed;
 }
-.col-title{
+.col-title {
   font-size: 25px;
   color: #FFF;
-  font-family: cursive;
+  font-family: 'Poppins';
   margin-bottom: 20px;
+  font-weight: 600;
 }
+
 
 /* #my-skills {
   padding: 20px;
@@ -528,7 +531,7 @@ form {
   border-radius: 10px;
   background-color: transparent;
   border: 1px solid #00abf0;
-  color: #ededed;
+  color: #047bc4;
   font-family: 'Poppins';
   font-weight: 400;
 }
@@ -588,30 +591,97 @@ footer {
   .navbar {
     display: none;
   }
+  .logo {
+  
+    font-size: 20px;
+  }
+  .navbar a{
+    font-size: 18px;
+  }
   #menu-icon {
     display: block;
   }
   header {
     padding: 20px;
   }
+  /* spotlight css */
   .main-sec{
     padding:20px;
+    background: none;
+    height: fit-content;
   }
   .content-div {
     max-width: 100%;
   }
+  .content-div h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+
+  .content-div p {
+      font-size: 16px;
+      margin-bottom: 18px;
+  }
+  .profile-img{
+      display:none;
+  }
+
+  .animate h2{
+      font-size: 40px;
+      font-weight: 600;
+  }
+
+
+  .btn, #social-links{
+    font-size: 16px;
+  }
+
+  /* about css */
   .about{
     padding: 20px;
   }
+    .abt-content p{
+    font-size: 16px;
+  }
+
+  .about h2 {
+    font-size: 40px;
+  }
+  .abt-content h3{
+    font-size: 25px;
+  }
+
+
+/* My journey sec css */
   .my-journey {
     padding: 20px;
   }
+  .my-journey h2 {
+    font-size: 40px;
+  }
+
+  .my-skills h2 {
+    font-size: 40px;
+  }
+  h3.skl-name{
+    font-size: 18px;
+  }
+
   .edu-col {
     flex: 1 1 100%;
   }
   .my-skills{
     padding: 20px;
   }
+
+  /* contact form css */
+
+  .contact h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+  }
+  
   .contact{
     padding: 20px;
   }
@@ -659,11 +729,77 @@ footer {
   }
 }
 
+@media only screen and (min-device-width: 601px) and (max-device-width: 1080px) {
+  .logo{
+    font-size:22px;
+  }
+  .navbar a{
+    font-size: 18px;
+  }
+  
+  /* spotlight css */
 
+  .main-sec{
+    background:none;
+    height: fit-content;
+  }
+  .container-width {
+    padding: 20px 40px;
+  }
+  .bck-top{
+    right: 0;
+    bottom: 30px;
+  }
+  .content-div {
+    max-width: 100%;
+  }
+  .content-div h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .content-div p {
+      font-size: 18px;
+      margin-bottom: 18px;
+  }
+  .profile-img{
+      display:none;
+  }
+  /* about css */
+
+  .about{
+    padding: 20px;
+  }
+    .abt-content p{
+    font-size: 18px;
+  }
+
+  .about h2 {
+    font-size: 45px;
+  }
+  .abt-content h3{
+    font-size: 30px;
+  }
+
+  /* my journey css */
+  .my-journey h2, .my-skills h2 , .contact h2 {
+    font-size: 45px;
+  }
+  .contact h2{
+    margin-bottom: 20px;
+  }
+  
+  h3.skl-name {
+    font-size: 18px;
+  }
+  
+}
 @media only screen and (min-device-width: 1100px) and (max-device-width: 1600px) {
   .container-width {
     padding: 20px 100px;
   }
+  
+  
 }
 
 
